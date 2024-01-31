@@ -2,6 +2,10 @@
     display: none;
 }
 
+object {
+    width: 200px;
+}
+
 #greytext {
     transition: all 0.5s ease;
     transform-origin: center;
