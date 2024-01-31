@@ -1,6 +1,7 @@
 console.log("JS file connected");
 
-const vectorGraphics = document.querySelector('#badge');
+const vectorGraphic = document.querySelector('#orange');
+console.log(vectorGraphic);
 
 function logthisId(element) {
     console.log(this);
