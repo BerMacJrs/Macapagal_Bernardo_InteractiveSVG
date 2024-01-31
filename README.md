@@ -1,5 +1,5 @@
 # Macapagal_Bernardo_InteractiveSVG
-This is a repository about the JavaScript assignment in creating Interactive and animated SVG icons. In this homework, we are tasked to find, design, or create six SVG images and add animations and interactivity. Thanks for stopping by!
+This is a repository about the JavaScript assignment in creating Interactive and animated SVG icons. In this homework, we are tasked to find, design, or create six SVG images and add animations and interactivity. The added icons can be based of the Final Integrated Project. Thanks for stopping by!
 
 ![Interactive SVG Readme Photo](/images/InteractiveSVG_Readme.png)
 
