@@ -21,6 +21,25 @@
       .cls-4 {
         fill: #b21934;
       }
+
+      #strawberry:hover {
+    animation: wave 1s ease;
+      }
+
+      @keyframes wave {
+    0% {
+        transform: rotate(0);
+    }
+    25% {
+        transform: rotate(-30deg);
+    }
+    75% {
+        transform: rotate(30deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+    }
     </style>
     <script>
     const vectorGraphic = document.querySelector('#strawberry');

@@ -6,6 +6,11 @@
         fill: #fec007;
         stroke-width: 0px;
       }
+
+      #star:hover {
+        transition: all 1.5s ease;
+        transform: rotateY(360deg);
+      } 
     </style>
     <script>
     const vectorGraphic = document.querySelector('#star');
