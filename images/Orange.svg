@@ -36,8 +36,6 @@
   }
     </style>
     <script>
-    console.log("JS file connected");
-
     const vectorGraphic = document.querySelector('#orange');
     console.log(vectorGraphic);
 

@@ -13,9 +13,7 @@
       }
     </style>
     <script>
-    console.log("JS file connected");
-
-    const vectorGraphic = document.querySelector('#orange');
+    const vectorGraphic = document.querySelector('#instagram');
     console.log(vectorGraphic);
 
     function logthisId(element) {
