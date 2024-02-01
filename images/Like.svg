@@ -13,6 +13,22 @@
       .cls-2 {
         fill: #2195f2;
       }
+
+      #like:hover {
+        animation: hit 0.8s ease-in-out;
+    }
+
+      @keyframes hit {
+    0% {
+        transform: translateY(0) rotate(0);
+      }
+    50% {
+        transform: translateY(-25px) rotate(-20deg);
+      }
+    100% {
+        transform: translateY(0) rotate(0);
+      }
+    }
     </style>
     <script>
     const vectorGraphic = document.querySelector('#like');

@@ -9,7 +9,7 @@
 
       path:hover {
       transition: all 1s ease;
-      fill: orangered;
+      fill: darkviolet;
       }
     </style>
     <script>
