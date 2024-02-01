@@ -23,9 +23,9 @@ object {
     margin-left: 20px;
 }
 
-#instagram:hover {
-    transition: all 1.5s ease;
-    fill: red;
+path:hover {
+    transition: all 1s ease;
+    fill: orangered;
 }
 
 #like:hover {
