@@ -21,7 +21,33 @@
       .cls-4 {
         fill: #f5892f;
       }
+
+      #orange:hover {
+        animation: spin 3s ease;
+      }
+
+    @keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+  }
     </style>
+   <script>
+    console.log("JS file connected");
+
+    const vectorGraphic = document.querySelector('#orange');
+    console.log(vectorGraphic);
+
+    function logthisId(element) {
+      console.log(this);
+      console.log('clicked on this element:', this.id);
+    }
+
+    vectorGraphic.addEventListener('click', logthisId);
+  </script>
   </defs>
   <path class="cls-3" d="M61.66,249.73c.04-103.71,84.58-187.75,188.79-187.68,103.85.07,187.98,84.51,187.9,188.57-.09,103.53-84.84,187.47-189.15,187.33-103.41-.13-187.57-84.6-187.53-188.23Z"/>
   <path class="cls-2" d="M250.16,84.88c91.6.07,165.34,73.75,165.32,165.18-.02,91.55-74.04,165.23-165.83,165.06-91.56-.17-165.24-73.96-165.12-165.38.11-91.37,74.02-164.93,165.64-164.86Z"/>
